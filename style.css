@@ -1,0 +1,130 @@
+.reservation-component {
+  border: 1px solid #ddd;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin : auto
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.date-picker {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-radius: 9px;
+}
+
+.date-picker label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.guests {
+  margin: 10px 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+.guests label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.guests input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.guest-dropdown {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  left: 0;
+  top: 40px;
+  display: none;
+}
+
+.guests:hover .guest-dropdown,
+.guest-dropdown:hover {
+  display: block;
+}
+
+.guest-counter {
+  display: flex;
+  flex-direction: column;
+}
+
+.guest-counter div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.guest-counter span {
+  margin: 0 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.reserve-button {
+  background-color: #ff007f;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.reserve-button:hover {
+  background-color: #e60073;
+}
+
+.total {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
